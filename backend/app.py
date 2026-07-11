@@ -12,7 +12,12 @@ from extraire_releve_attijari import (
 )
 
 app = Flask(__name__)
-CORS(app)
+from flask_cors import CORS
+
+CORS(
+    app,
+    resources={r"/*": {"origins": "*"}}
+)
 
 UPLOAD_FOLDER = "uploads"
 OUTPUT_FOLDER = "outputs"

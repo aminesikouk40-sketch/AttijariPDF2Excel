@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial,sans-serif;
+
+    background:#eef2f7;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+}
+
+.container{
+
+    width:600px;
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:40px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+    text-align:center;
+
+}
+
+h1{
+
+    margin-bottom:15px;
+
+    color:#003366;
+
+}
+
+.subtitle{
+
+    color:#666;
+
+    margin-bottom:30px;
+
+}
+
+.drop-zone{
+
+    border:3px dashed #1f6feb;
+
+    border-radius:12px;
+
+    padding:40px;
+
+    transition:.3s;
+
+}
+
+.drop-zone.drag{
+
+    background:#eef7ff;
+
+}
+
+.icon{
+
+    font-size:60px;
+
+    margin-bottom:15px;
+
+}
+
+button{
+
+    background:#0066cc;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 28px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    margin-top:20px;
+
+    font-size:16px;
+
+}
+
+button:hover{
+
+    background:#0054aa;
+
+}
+
+.convert-btn{
+
+    width:100%;
+
+}
+
+#filename{
+
+    margin-top:20px;
+
+    color:#1f6feb;
+
+    font-weight:bold;
+
+}
+
+#status{
+
+    margin-top:20px;
+
+    font-weight:bold;
+
+}
+
+#loader{
+
+    margin-top:20px;
+
+}
